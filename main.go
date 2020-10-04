@@ -19,7 +19,7 @@ var commands = []*cli.Command{
 
 func newApp() *cli.App {
 	app := cli.NewApp()
-	app.Name = "fujiwara"
+	app.Name = "tf"
 	app.Usage = "respect tatsuya fujiwara"
 	app.Version = "0.0.1"
 	app.Authors = []*cli.Author{
